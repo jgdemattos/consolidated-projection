@@ -183,7 +183,7 @@ This tool serves as a foundation that could be expanded for more complex analysi
        access_token=XXX
        agencies_bm_id=XXX(optional)
        ```
-5.  **Configure Environment Variables:**
+5.  **Configure client data:**
     * Provide a id, busines manager id, google account id for each client. It's also possible to provide meta adaccount ids direcly, for querying ad accounts linked to your business manager, informed at .env's "agencies_bm_id" key.
       ```csv
       # clients.csv file example
