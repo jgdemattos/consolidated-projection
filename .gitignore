@@ -1,0 +1,62 @@
+Here's a recommended .gitignore file for a typical Flask application:# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+# If you have a virtualenv in the project directory
+
+.env
+# Flask instance folder
+instance/
+
+# Logs
+*.log
+
+# Database files
+*.sqlite
+*.db
+
+# Uploaded files
+uploads/
+
+# Dependency cache
+.webassets-cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Distribution files
+dist/
+build/
+*.egg-info/
+
+# Coverage reports
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Temporary files from running applications
+tmp/
+temp/
+
+# Compiled static assets
+static/build/  # If you compile static assets (e.g., with Webpack)
+
+# Don't include media, but you can include the folder
+/media
+
+clients.csv
