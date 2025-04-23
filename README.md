@@ -67,9 +67,9 @@ This application offers two primary functionalities accessible via API endpoints
     * **Method:** `GET`
     * **Description:** Returns a detailed text-based report outlining:
         * Spend breakdown per platform (Meta Ads, Google Ads).
-        * Spend details for individual accounts and potentially campaigns within each platform (depending on implementation granularity).
-    * **Use Case:** Deeper dive analysis, identifying high/low spending campaigns, generating detailed summaries for stakeholders.
-    * **Example Response (Conceptual):**
+        * Spend details for individual accounts and campaigns within each platform.
+    * **Use Case:** Identifying high/low spending campaigns and accounts, generating detailed summaries for stakeholders.
+    * **Example Response:**
         ```text
       [🍊 Consolidated Projection - ExampleClientName - 23/04/25 🍊]
       
