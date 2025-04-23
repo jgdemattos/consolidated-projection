@@ -1,6 +1,4 @@
-
-# Consolidated Projection
-## Marketing Ads Spend Aggregator & Projection API
+# Marketing Ads Spend Aggregator & Projection API
 
 ---
 
@@ -150,6 +148,9 @@ This project directly addresses key marketing operational needs:
 * **Cross-Platform Visibility:** Offers a consolidated view of spend across major advertising channels.
 * **Technical Proficiency:** Demonstrates the ability to leverage APIs and code to build practical marketing technology solutions.
 
+- /get-projection: Quick budget health checks enabling proactive spend adjustments, dashboard integrations.
+- /get-full-report: Deeper dive analysis to optimize campaign allocation, generating detailed summaries.
+
 This tool serves as a foundation that could be expanded for more complex analysis, visualization (e.g., integrating with BI tools), or automated alerting systems.
 
 ---
@@ -209,7 +210,7 @@ This tool serves as a foundation that could be expanded for more complex analysi
 
 ## About Me & Contact
 
-I am a results-oriented marketing professional passionate about leveraging technology and data to drive growth and efficiency. This project is one example of how I bridge the gap between marketing strategy and technical execution.
+I am a results-oriented marketing professional specializing in leveraging data and technology to drive efficiency and growth. This project exemplifies my ability to bridge marketing strategy with hands-on technical implementation (API integration, automation, data processing).
 
 * **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/joaomattos-marketing-manager/)
 * **Portfolio:** [Other projects I'm working on](https://joaomattos.pro/)
