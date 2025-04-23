@@ -73,9 +73,9 @@ This application offers two primary functionalities accessible via API endpoints
         ```text
       [🍊 Consolidated Projection - ExampleClientName - 23/04/25 🍊]
       
-      👥 Daily Budget: R$ 320.12;
-      💸 Total spent: R$ 9027.63;
-      📈 Spend Projection: R$ 11268.47;
+      👥 Daily Budget: R$ 385.12;
+      💸 Total spent: R$ 9227.63;
+      📈 Spend Projection: R$ 13268.47;
       
       [Meta Ads]
       1 Business Managers watched:
@@ -120,7 +120,9 @@ This application offers two primary functionalities accessible via API endpoints
       ➡️ 5650657493 - 0 campaigns
       💸 Total spent: R$ 0.0
       💰 Current budget: R$ 0
-      no campaigns
+        
+      ➡️ ExampleGoogleCampaignName1
+      💸: R$ 2332.92 - 💰: R$ 65.29 - 🟢: ACTIVE
         ----------------------------------------
         ```
 
@@ -152,7 +154,7 @@ This tool serves as a foundation that could be expanded for more complex analysi
 
 ---
 
-## Setup & Installation (Optional - If you want others to run it)
+## Setup & Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -179,9 +181,17 @@ This tool serves as a foundation that could be expanded for more complex analysi
     refresh_token=XXX
     mcc_id=XXX
     access_token=XXX
-    agencies_bm_id=XXX
+    agencies_bm_id=XXX(optional)
     ```
-5.  **Run the Flask application:**
+5.  **Configure Environment Variables:**
+    * Provide a id, busines manager id, google account id for each client. It's also possible to provide meta adaccount ids direcly, for querying ad accounts linked to your business manager, informed at .env's "agencies_bm_id" key.
+    ```csv
+    # clients.csv file example
+      id;name;meta_id;google_id;meta_adaccount_ids
+      XX;XXX;XXX;XXX;
+      XX;XXX;XXX;XXX;XXX;
+    ```
+6.  **Run the Flask application:**
     ```bash
     flask run
     ```
