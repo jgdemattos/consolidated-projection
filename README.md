@@ -186,7 +186,7 @@ This tool serves as a foundation that could be expanded for more complex analysi
 5.  **Configure Environment Variables:**
     * Provide a id, busines manager id, google account id for each client. It's also possible to provide meta adaccount ids direcly, for querying ad accounts linked to your business manager, informed at .env's "agencies_bm_id" key.
     ```csv
-    # clients.csv file example
+      # clients.csv file example
       id;name;meta_id;google_id;meta_adaccount_ids
       XX;XXX;XXX;XXX;
       XX;XXX;XXX;XXX;XXX;
