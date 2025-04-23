@@ -157,44 +157,44 @@ This tool serves as a foundation that could be expanded for more complex analysi
 ## Setup & Installation
 
 1.  **Clone the repository:**
-    ```bash
-    git clone [your-repository-url]
-    cd [repository-directory]
-    ```
+      ```bash
+      git clone [your-repository-url]
+      cd [repository-directory]
+      ```
 2.  **Create a virtual environment:**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate # On Windows use `venv\Scripts\activate`
-    ```
+      ```bash
+      python -m venv venv
+      source venv/bin/activate # On Windows use `venv\Scripts\activate`
+      ```
 3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+      ```bash
+      pip install -r requirements.txt
+      ```
 4.  **Configure Environment Variables:**
     * Create a `.env` file in the root directory.
     * Add your API credentials and any necessary configuration variables (e.g., Client IDs, Account IDs, Developer Tokens, Refresh Tokens, Monthly Budget). **Never commit your `.env` file or credentials directly to Git.**
-    ```dotenv
-    # .env file example
-    developer_token=XXX
-    client_id=XXX
-    client_secret=XXX
-    refresh_token=XXX
-    mcc_id=XXX
-    access_token=XXX
-    agencies_bm_id=XXX(optional)
-    ```
+       ```dotenv
+       # .env file example
+       developer_token=XXX
+       client_id=XXX
+       client_secret=XXX
+       refresh_token=XXX
+       mcc_id=XXX
+       access_token=XXX
+       agencies_bm_id=XXX(optional)
+       ```
 5.  **Configure Environment Variables:**
     * Provide a id, busines manager id, google account id for each client. It's also possible to provide meta adaccount ids direcly, for querying ad accounts linked to your business manager, informed at .env's "agencies_bm_id" key.
-   ```csv
-   # clients.csv file example
-   id;name;meta_id;google_id;meta_adaccount_ids
-   XX;XXX;XXX;XXX;
-   XX;XXX;XXX;XXX;XXX;
-   ```
+      ```csv
+      # clients.csv file example
+      id;name;meta_id;google_id;meta_adaccount_ids
+      XX;XXX;XXX;XXX;
+      XX;XXX;XXX;XXX;XXX;
+      ```
 6.  **Run the Flask application:**
-    ```bash
-    flask run
-    ```
+      ```bash
+      flask run
+      ```
     The API will typically be available at `http://127.0.0.1:5000`.
 
 ---
