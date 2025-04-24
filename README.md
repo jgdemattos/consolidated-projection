@@ -115,7 +115,7 @@ This application offers two primary functionalities accessible via API endpoints
    
       [Google Ads]
       1 Google accounts:
-      ➡️ 5650657493 - 0 campaigns
+      ➡️ ExampleGoogleAccountName1 - 0 campaigns
       💸 Total spent: R$ 0.0
       💰 Current budget: R$ 0
         
