@@ -120,7 +120,7 @@ This application offers two primary functionalities accessible via API endpoints
       💰 Current budget: R$ 0
         
       ➡️ ExampleGoogleCampaignName1
-      💸: R$ 2332.92 - 💰: R$ 65.29 - 🟢: ACTIVE
+      no campaigns
         ----------------------------------------
         ```
 
