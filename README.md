@@ -118,8 +118,7 @@ This application offers two primary functionalities accessible via API endpoints
       ➡️ ExampleGoogleAccountName1 - 0 campaigns
       💸 Total spent: R$ 0.0
       💰 Current budget: R$ 0
-        
-      ➡️ ExampleGoogleCampaignName1
+
       no campaigns
         ----------------------------------------
         ```
